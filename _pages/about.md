@@ -17,42 +17,44 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am 00Dreamer00, a researcher interested in topics across computer science and engineering. This homepage is built from the AcadHomepage template. Please update this section with your full bio, affiliation, and research statement.
+Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soochow University (expected 2028). I am based in Nanjing, Jiangsu, China, and I am available for a long-term internship (can start immediately, 5 days/week).
 
-**Research Interests:** Example topics such as machine learning, computer vision, and systems. Replace with your real research interests.
+**Contact:** x2503363160@163.com · +86 187-5197-0163  
+**Google Scholar:** [https://scholar.google.com/citations?hl=en&user=uw3bKYIAAAAJ](https://scholar.google.com/citations?hl=en&user=uw3bKYIAAAAJ&view_op=list_works&gmla=AIqSsVtpRSzI2qaXy6ek77P-5yH8AL2ePwajUzQEqQ5NSS-N04Qw5h3NaIiJCVAYR-rWq8PMpwizgMkXwANEERuz)
 
+**Research Interests:** tool-integrated reasoning, efficient LLMs, token compression, RAG, and domain LLM evaluation.
 
-# 🔥 News
-- *2026.05*: &nbsp;🎉 Launched my academic homepage.
-- *2026.01*: &nbsp;✅ Add your recent achievements, publications, or milestones here.
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PREPRINT</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Your Paper Title](#)
-
-**First Author**, Coauthor, Coauthor
-
-[**PDF**](#) · [**Project**](#)
-- Brief summary of your contribution or key result.
-</div>
-</div>
-
-- [Another publication title](#), Author A, Author B, **Venue 2025**
+# 📝 Publications
+- **When to Trust Tools? Adaptive Tool Trust Calibration for Tool-Integrated Math Reasoning**  
+  *First Author*, accepted at ACL 2026. Proposed ATTC to calibrate tool trust from generated code confidence; reduced tool neglect and improved performance by 4.1–7.5%.
+- **OmniSelect: Adaptive Token Compression Framework for Efficient Omni-modal LLMs**  
+  *Co-first Author*, submitted to NeurIPS 2026. Proposed dynamic token compression using AudioCLIP to select guidance signals and adjust pruning ratios; retained 30% tokens with strong performance.
+- **When Is Thinking Enough? Early Exit via Sufficiency Assessment for Efficient Reasoning**  
+  *Third Author*, accepted at ACL 2026. Proposed DTSR with reasoning-signal detection and sufficiency checks to choose early-exit points; reduced reasoning length by 29–35% without sacrificing performance.
 
 # 🎖 Honors and Awards
-- *2025.12* Example award or scholarship.
-- *2024.06* Example competition or recognition.
+- Zhejiang Province Outstanding Graduate.
+- Soochow University Academic Scholarship (Special Prize).
 
-# 📖 Educations
-- *2022.09 - Present*, Ph.D. in Your Field, Your University.
-- *2018.09 - 2022.06*, B.S. in Your Major, Your University.
+# 📖 Education
+- *2025.09 – 2028.06*, M.S. in Computer Technology, Soochow University (recommended admission).
+- *2021.09 – 2025.06*, B.S. in Computer Science and Technology, Zhejiang University of Technology.  
+  GPA 3.84/5, rank 3/177; CET-4 581, CET-6 531.
 
-# 💬 Invited Talks
-- *2025.03*, Example invited talk, Conference/Institution.
-- *2024.10*, Example invited talk.  \| [\[video\]](#)
+# 🔬 Research & Project Experience
 
-# 💻 Internships
-- *2023.06 - 2023.09*, Example internship, Company/Institution.
+**Nuclear-Device Domain LLM Optimization (CSSC 719 Institute, 2025.04 – 2025.06)**  
+*Tech:* Python, data cleaning, LLM-Judge, supervised fine-tuning, instruction tuning, Ray, vLLM, RAG, Milvus  
+- Built a domain pretraining corpus (230B tokens) and a general corpus (780B tokens), plus a 6.85M-token high-quality seed dataset.
+- Developed a data-quality scoring engine using LLM-Judge + BERT classifier for supervised filtering.
+- Synthesized 300k high-quality instruction data and performed full-parameter SFT (Qwen2.5-14B-Instruct, DeepSeek-R1-Distill-Qwen-14B) via LLaMA-Factory, improving nuclear physics benchmark accuracy by 6.9–12.8%.
+- Constructed a nuclear-physics benchmark with 12 subfields and 9,844 multiple-choice questions; built distributed auto-evaluation with Ray + vLLM supporting CoT, Rouge-L, and token-level F1.
+- Built a domain QA system with RAG, using Milvus vector store and hybrid retrieval (BGE semantic + BM25) with weighted reciprocal-rank fusion.
+
+**Intelligent Contract Processing Agent (Suzhou Bank, 2025.01 – 2025.03)**  
+*Tech:* Python, OCR, LangChain, LangGraph, RAG, ChromaDB  
+- Cleaned open-source datasets and contract documents to build 40k instruction-tuning samples (contract classification, entity extraction, etc.).
+- Built a legal benchmark from national judicial exam questions and legal consultation docs (2,500 multiple-choice and 300 subjective questions).
+- LoRA-tuned Qwen2.5-7B-Instruct, outperforming the base and open-source legal models on the test set.
+- Implemented modules for contract classification, clause extraction, contract review, and legal QA; added RAG-based risk identification.
+- Built a LangGraph agent with a loop of analysis → evidence review → drafting → review → revise, using a state machine to preserve context and consistency.
