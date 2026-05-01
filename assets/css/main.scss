@@ -55,6 +55,7 @@
         display: flex;
         width: 100%;
         order: 2;
+        position: relative;
         img {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
@@ -65,6 +66,14 @@
     .paper-box-text{
         max-width: 100%;
         order: 1;
+        h3 {
+            margin-top: 0;
+        }
+        .paper-box-authors {
+            margin: 0.5em 0;
+            font-weight: 600;
+            color: #555;
+        }
     }
     
     @include breakpoint($medium) {
@@ -85,6 +94,37 @@
     }
 
 
+}
+
+.paper-box-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.5em;
+
+    .btn {
+        text-decoration: none !important;
+    }
+}
+
+.btn--arxiv {
+    background-color: #4b4b4b;
+}
+
+.btn--paper {
+    background-color: #e67e22;
+}
+
+.btn--github {
+    background-color: #24292e;
+}
+
+.btn--code {
+    background-color: #1f78b4;
+}
+
+.btn--models {
+    background-color: #7fb21b;
 }
 
 $scroll_offset : 2em;
