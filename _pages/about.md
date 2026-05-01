@@ -35,11 +35,11 @@ Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soo
     <p class="paper-box-authors">First Author · Accepted at ACL 2026</p>
     <p><strong>TL;DR:</strong> Proposed ATTC to calibrate tool trust from generated code confidence; reduced tool neglect and improved performance by 4.1–7.5%.</p>
     <div class="paper-box-links">
-      <span class="btn btn--small btn--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
-      <span class="btn btn--small btn--paper"><i class="fas fa-file-alt"></i> Paper</span>
-      <span class="btn btn--small btn--github"><i class="fab fa-github"></i> GitHub</span>
-      <span class="btn btn--small btn--code"><i class="fas fa-code"></i> Code</span>
-      <span class="btn btn--small btn--models"><i class="fas fa-robot"></i> Models</span>
+      <span class="paper-tag paper-tag--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
+      <span class="paper-tag paper-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <span class="paper-tag paper-tag--github"><i class="fab fa-github"></i> GitHub</span>
+      <span class="paper-tag paper-tag--code"><i class="fas fa-code"></i> Code</span>
+      <span class="paper-tag paper-tag--models"><i class="fas fa-robot"></i> Models</span>
     </div>
   </div>
 </div>
@@ -54,11 +54,11 @@ Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soo
     <p class="paper-box-authors">Co-first Author · Submitted to NeurIPS 2026</p>
     <p><strong>TL;DR:</strong> Proposed dynamic token compression using AudioCLIP to select guidance signals and adjust pruning ratios; retained 30% tokens with strong performance.</p>
     <div class="paper-box-links">
-      <span class="btn btn--small btn--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
-      <span class="btn btn--small btn--paper"><i class="fas fa-file-alt"></i> Paper</span>
-      <span class="btn btn--small btn--github"><i class="fab fa-github"></i> GitHub</span>
-      <span class="btn btn--small btn--code"><i class="fas fa-code"></i> Code</span>
-      <span class="btn btn--small btn--models"><i class="fas fa-robot"></i> Models</span>
+      <span class="paper-tag paper-tag--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
+      <span class="paper-tag paper-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <span class="paper-tag paper-tag--github"><i class="fab fa-github"></i> GitHub</span>
+      <span class="paper-tag paper-tag--code"><i class="fas fa-code"></i> Code</span>
+      <span class="paper-tag paper-tag--models"><i class="fas fa-robot"></i> Models</span>
     </div>
   </div>
 </div>
@@ -73,11 +73,11 @@ Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soo
     <p class="paper-box-authors">Third Author · Accepted at ACL 2026</p>
     <p><strong>TL;DR:</strong> Proposed DTSR with reasoning-signal detection and sufficiency checks to choose early-exit points; reduced reasoning length by 29–35% without sacrificing performance.</p>
     <div class="paper-box-links">
-      <span class="btn btn--small btn--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
-      <span class="btn btn--small btn--paper"><i class="fas fa-file-alt"></i> Paper</span>
-      <span class="btn btn--small btn--github"><i class="fab fa-github"></i> GitHub</span>
-      <span class="btn btn--small btn--code"><i class="fas fa-code"></i> Code</span>
-      <span class="btn btn--small btn--models"><i class="fas fa-robot"></i> Models</span>
+      <span class="paper-tag paper-tag--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
+      <span class="paper-tag paper-tag--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <span class="paper-tag paper-tag--github"><i class="fab fa-github"></i> GitHub</span>
+      <span class="paper-tag paper-tag--code"><i class="fas fa-code"></i> Code</span>
+      <span class="paper-tag paper-tag--models"><i class="fas fa-robot"></i> Models</span>
     </div>
   </div>
 </div>

@@ -55,7 +55,7 @@
         display: flex;
         width: 100%;
         order: 2;
-        position: relative;
+        position: relative; // enables the badge overlay positioning
         img {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
@@ -101,29 +101,37 @@
     flex-wrap: wrap;
     gap: 0.5em;
     margin-top: 0.5em;
-
-    .btn {
-        text-decoration: none !important;
-    }
 }
 
-.btn--arxiv {
+.paper-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.35em 0.75em;
+    border-radius: $border-radius;
+    font-size: $type-size-7;
+    font-weight: 600;
+    color: #fff;
+    cursor: default;
+}
+
+.paper-tag--arxiv {
     background-color: #4b4b4b;
 }
 
-.btn--paper {
+.paper-tag--paper {
     background-color: #e67e22;
 }
 
-.btn--github {
+.paper-tag--github {
     background-color: #24292e;
 }
 
-.btn--code {
+.paper-tag--code {
     background-color: #1f78b4;
 }
 
-.btn--models {
+.paper-tag--models {
     background-color: #7fb21b;
 }
 
