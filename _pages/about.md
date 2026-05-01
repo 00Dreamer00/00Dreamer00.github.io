@@ -28,18 +28,18 @@ Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soo
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">ACL 2026</div>
-    <img src="{{ '/images/500x300.png' | relative_url }}" alt="ATTC teaser">
+    <img src="{{ '/images/publications/attc.png' | relative_url }}" alt="ATTC teaser">
   </div>
   <div class="paper-box-text">
-    <h3><a href="#">When to Trust Tools? Adaptive Tool Trust Calibration for Tool-Integrated Math Reasoning</a></h3>
+    <h3>When to Trust Tools? Adaptive Tool Trust Calibration for Tool-Integrated Math Reasoning</h3>
     <p class="paper-box-authors">First Author · Accepted at ACL 2026</p>
     <p><strong>TL;DR:</strong> Proposed ATTC to calibrate tool trust from generated code confidence; reduced tool neglect and improved performance by 4.1–7.5%.</p>
     <div class="paper-box-links">
-      <a class="btn btn--small btn--arxiv" href="#"><i class="ai ai-arxiv"></i> arXiv</a>
-      <a class="btn btn--small btn--paper" href="#"><i class="fas fa-file-alt"></i> Paper</a>
-      <a class="btn btn--small btn--github" href="#"><i class="fab fa-github"></i> GitHub</a>
-      <a class="btn btn--small btn--code" href="#"><i class="fas fa-code"></i> Code</a>
-      <a class="btn btn--small btn--models" href="#"><i class="fas fa-robot"></i> Models</a>
+      <span class="btn btn--small btn--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
+      <span class="btn btn--small btn--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <span class="btn btn--small btn--github"><i class="fab fa-github"></i> GitHub</span>
+      <span class="btn btn--small btn--code"><i class="fas fa-code"></i> Code</span>
+      <span class="btn btn--small btn--models"><i class="fas fa-robot"></i> Models</span>
     </div>
   </div>
 </div>
@@ -47,18 +47,18 @@ Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soo
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">NeurIPS 2026</div>
-    <img src="{{ '/images/500x300.png' | relative_url }}" alt="OmniSelect teaser">
+    <img src="{{ '/images/publications/omniselect.png' | relative_url }}" alt="OmniSelect teaser">
   </div>
   <div class="paper-box-text">
-    <h3><a href="#">OmniSelect: Adaptive Token Compression Framework for Efficient Omni-modal LLMs</a></h3>
+    <h3>OmniSelect: Adaptive Token Compression Framework for Efficient Omni-modal LLMs</h3>
     <p class="paper-box-authors">Co-first Author · Submitted to NeurIPS 2026</p>
     <p><strong>TL;DR:</strong> Proposed dynamic token compression using AudioCLIP to select guidance signals and adjust pruning ratios; retained 30% tokens with strong performance.</p>
     <div class="paper-box-links">
-      <a class="btn btn--small btn--arxiv" href="#"><i class="ai ai-arxiv"></i> arXiv</a>
-      <a class="btn btn--small btn--paper" href="#"><i class="fas fa-file-alt"></i> Paper</a>
-      <a class="btn btn--small btn--github" href="#"><i class="fab fa-github"></i> GitHub</a>
-      <a class="btn btn--small btn--code" href="#"><i class="fas fa-code"></i> Code</a>
-      <a class="btn btn--small btn--models" href="#"><i class="fas fa-robot"></i> Models</a>
+      <span class="btn btn--small btn--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
+      <span class="btn btn--small btn--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <span class="btn btn--small btn--github"><i class="fab fa-github"></i> GitHub</span>
+      <span class="btn btn--small btn--code"><i class="fas fa-code"></i> Code</span>
+      <span class="btn btn--small btn--models"><i class="fas fa-robot"></i> Models</span>
     </div>
   </div>
 </div>
@@ -66,18 +66,18 @@ Hello! I am Ruotao Xu (徐若涛), an M.S. student in Computer Technology at Soo
 <div class="paper-box">
   <div class="paper-box-image">
     <div class="badge">ACL 2026</div>
-    <img src="{{ '/images/500x300.png' | relative_url }}" alt="DTSR teaser">
+    <img src="{{ '/images/publications/dtsr.png' | relative_url }}" alt="DTSR teaser">
   </div>
   <div class="paper-box-text">
-    <h3><a href="#">When Is Thinking Enough? Early Exit via Sufficiency Assessment for Efficient Reasoning</a></h3>
+    <h3>When Is Thinking Enough? Early Exit via Sufficiency Assessment for Efficient Reasoning</h3>
     <p class="paper-box-authors">Third Author · Accepted at ACL 2026</p>
     <p><strong>TL;DR:</strong> Proposed DTSR with reasoning-signal detection and sufficiency checks to choose early-exit points; reduced reasoning length by 29–35% without sacrificing performance.</p>
     <div class="paper-box-links">
-      <a class="btn btn--small btn--arxiv" href="#"><i class="ai ai-arxiv"></i> arXiv</a>
-      <a class="btn btn--small btn--paper" href="#"><i class="fas fa-file-alt"></i> Paper</a>
-      <a class="btn btn--small btn--github" href="#"><i class="fab fa-github"></i> GitHub</a>
-      <a class="btn btn--small btn--code" href="#"><i class="fas fa-code"></i> Code</a>
-      <a class="btn btn--small btn--models" href="#"><i class="fas fa-robot"></i> Models</a>
+      <span class="btn btn--small btn--arxiv"><i class="ai ai-arxiv"></i> arXiv</span>
+      <span class="btn btn--small btn--paper"><i class="fas fa-file-alt"></i> Paper</span>
+      <span class="btn btn--small btn--github"><i class="fab fa-github"></i> GitHub</span>
+      <span class="btn btn--small btn--code"><i class="fas fa-code"></i> Code</span>
+      <span class="btn btn--small btn--models"><i class="fas fa-robot"></i> Models</span>
     </div>
   </div>
 </div>
