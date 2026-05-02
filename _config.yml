@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ruotao Xu | Academic Homepage"
-description              : "Academic homepage of Ruotao Xu, M.S. student at Soochow University."
+description              : "I can do all things."
 repository               : "00Dreamer00/00Dreamer00.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ruotao Xu"
-  avatar           : "images/android-chrome-512x512.png"
+  name             : "Ruotao Xu(徐若涛)"
+  avatar           : "images/photo.png"
   bio              : "M.S. student in Computer Technology at Soochow University."
-  location         : "Nanjing, Jiangsu, China"
-  employer         : "Soochow University"
+  location         : "Suzhou, Jiangsu, China"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=uw3bKYIAAAAJ&view_op=list_works&gmla=AIqSsVtpRSzI2qaXy6ek77P-5yH8AL2ePwajUzQEqQ5NSS-N04Qw5h3NaIiJCVAYR-rWq8PMpwizgMkXwANEERuz"
   email            : "x2503363160@163.com"
